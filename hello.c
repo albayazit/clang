@@ -1,7 +1,13 @@
 #include <stdio.h>
 
 int main(){
- printf("Hello, world! It is \"escape sequence\" in c.\n");
- printf("Goodbye!");
+ int sec, min;
+
+ scanf("%d", &min); 
+
+ sec = min*60;
+ 
+ printf("%d", sec); 
+
  return 0;
 }
